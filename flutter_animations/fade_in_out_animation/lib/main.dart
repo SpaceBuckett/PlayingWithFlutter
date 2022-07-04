@@ -1,4 +1,5 @@
 import 'package:fade_in_out_animation/fade_in_out/fade_in_out_screen.dart';
+import 'package:fade_in_out_animation/use_case/use_case_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         primarySwatch: Colors.blue,
       ),
-      home: const AnimationScreen(),
+      home: const UseCaseScreen(),
     );
   }
 }
